@@ -1,7 +1,7 @@
 # -*- coding: UTF-8 -*-
 
 '''
-把根目录下的所有文件，按照 train: test: val == 6: 2: 2的比例分类。
+把根目录下的所有文件，按照 train: test: val == 6: 2: 2的比例分类，并存储至上级目录下的train, test, val文件夹里。
 '''
 import os
 import shutil
